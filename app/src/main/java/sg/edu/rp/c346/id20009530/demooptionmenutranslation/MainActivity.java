@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         } else {
             tvTranslatedText.setText("Error translation");
+            tvTranslatedText2.setText("Error translation");
         }
 
         return super.onOptionsItemSelected(item);
